@@ -31,6 +31,3 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom
-
-# Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
